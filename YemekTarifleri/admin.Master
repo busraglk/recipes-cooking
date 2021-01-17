@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="YemekTarifleri.admin" %>
+
+<!DOCTYPE html>
+
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Kullanici.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style4 {
+            text-align: center;
+        }
+        .auto-style6 {
+            width: 100%;
+        }
+        .auto-style7 {
+            text-align: left;
+            color: #FFFFFF;
+            font-size: large;
+            height: 35px;
+            background-color: #99CCFF;
+            width: 205px;
+        }
+        .auto-style9 {
+            height: 26px;
+            text-align: left;
+            color: #FFFFFF;
+            background-color: #99CCFF;
+            width: 205px;
+        }
+        .auto-style10 {
+            background-color: #99CCFF;
+        }
+        .auto-style11 {
+            height: 22px;
+            text-align: left;
+            color: #FFFFFF;
+            background-color: #99CCFF;
+            width: 205px;
+        }
+        .auto-style12 {
+            width: 900px;
+            height: auto;
+        }
+        .auto-style13 {
+            height: 26px;
+            text-align: left;
+            color: #FFFFFF;
+            font-size: medium;
+            background-color: #99CCFF;
+            width: 205px;
+        }
+        .auto-style14 {
+            width: 100%;
+            height: 297px;
+        }
+        .auto-style15 {
+            height: 15px;
+            background-color: #99CCFF;
+            width: 205px;
+        }
+        .auto-style16 {
+            width: 196px;
+            float: left;
+            height: 312px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="margin-left:300px; width:900px; height:150px; background-color:powderblue">
+
+            <asp:Image ID="Image1" runat="server" Height="150px" ImageUrl="~/resimler/login1.png" Width="902px" />
+
+        </div>
+        <div style="margin-left:300px; width:900px; height:20px;">&nbsp</div>
+        <div style="margin-left:300px; width:900px; height:20px;">&nbsp</div>
+        <div style="margin-left:300px; " class="auto-style12">
+
+        <div style="background-color:powderblue" class="auto-style16">
+            <div class="auto-style4">
+                <table class="auto-style14">
+                    <tr>
+                        <td class="auto-style7"><strong>MENÜLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style15"></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style11" style="border: thin solid #0000FF; padding: 4px;"><a href="Kategoriler.aspx">KATEGORİLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style9" style="border: thin solid #0000FF; padding: 4px;"><a href="Yemekler.aspx">YEMEKLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style9" style="border: thin solid #0000FF; padding: 4px;"><a href="Yorumlar.aspx">YORUMLAR</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style9" style="border: thin solid #0000FF; padding: 4px;"><a href="Mesajlar.aspx">MESAJLAR</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style9" style="border: thin solid #0000FF; padding: 4px;"><a href="GununYemegiAdmin.aspx">GÜNÜN YEMEĞİ</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style9" style="border: thin solid #0000FF; padding: 4px;"><a href="Tarifler.aspx">ÖNERİLEN TARİFLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style13" style="border: thin solid #0000FF; padding: 4px;"><a href="HakkimizdaAdmin.aspx">HAKKIMIZDA</a></td>
+                    </tr>
+                </table>
+                <br />
+                <table class="auto-style6">
+                    <tr>
+                       
+                    </tr>
+                </table>
+            </div>
+            </div>
+        <div style="margin-left:250px; width:650px; height:auto; " class="auto-style10">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+
+    </form>
+</body>
+</html>
