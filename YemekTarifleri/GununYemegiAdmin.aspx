@@ -19,6 +19,8 @@
         .auto-style26 {
         text-align: right;
     }
+        
+
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
