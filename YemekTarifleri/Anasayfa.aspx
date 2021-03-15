@@ -14,6 +14,7 @@
         .auto-style12 {
             background-color: #FFFFFF;
         }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
